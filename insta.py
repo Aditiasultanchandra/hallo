@@ -192,17 +192,18 @@ def login_dev():
 def logo():
 	os.system("clear")
 	print("""%s
- ________             _____              _________
- ____  _/_______________  /______ _      __  ____/
-  __  / __  __ \_  ___/  __/  __ `/_______  / __  
- __/ /  _  / / /(__  )/ /_ / /_/ /_/_____/ /_/ /  
- /___/  /_/ /_//____/ \__/ \__,_/        \____/   
+ .__                            __        ______               
+|  | ___   _______/  |_____  \____ \   ______  __
+|  |/   \ /  ___/\   __\__ \  |  |  \_/ _ \  \/ /
+|  |   | \\\___ \  |  |  / _ \_|  `   \  __/\   / 
+|__|___| /____  > |__| (__  /_____  /\___  >\_/  
+        /     \/          \/      \/     \/       
  """%(N))
 
 ### MENU ###
 def menu_dev():
 	logo()
-	print(" [*] Email       : fallxavier@yahoo.com")
+	print(" [*] Email       : Arachan@gmail.com")
 	print(" [*] Bergabung   : %s"%(tgl))
 	print(" [*] ---------------------------------------------")
 	print(" [*] Status      : %sPremium%s"% (H,N))
@@ -214,6 +215,8 @@ def menu_dev():
 	print(" [02]. crack dari pencarian")
 	print(" [03]. crack ulang hasil cp")
 	print(" [04]. cek akun hasil crack")
+        print(" [05]. Auto followers target")
+        print(" [06]. Laporkan bug script")
 	print(" [%s00%s]. logout (hapus login)"%(M,N))
 	pil = raw_input("\n [?] pilih menu : ")
 	limit = ("100000")
